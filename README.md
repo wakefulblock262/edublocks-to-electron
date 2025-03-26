@@ -181,5 +181,11 @@ function createWindow() {
 
 app.whenReady().then(createWindow);
 ```
+### Final Step
+
+-When you are all done, you can run the command below in VsCode to run your Electron app to make your EduBlocks website into a desktop app.
+```
+npm start
+```
 
 

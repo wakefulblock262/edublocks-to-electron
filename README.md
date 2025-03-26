@@ -17,33 +17,51 @@ Instal Node.js on your desktop
 
  # Windows
  -Install Chocolotey
+ ```
  powershell -c "irm https://community.chocolatey.org/install.ps1|iex"
+```
 
  -Install Node.js through Chocolotey
+ ```
  choco install nodejs-lts --version="22"
+```
 
  -Verify Installation
+ ```
  node -v
+```
 
  # MacOS
  -Install Homebrew
+ ```
  curl -o- https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh | bash
+```
 
  -Install Node.js through Homebrew
+ ```
  brew install node@22
+```
 
  -Verify Installation
+ ```
  node-v
+```
 
  # Linux
   -Install Homebrew
+  ```
  curl -o- https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh | bash
+```
 
  -Install Node.js through Homebrew
+ ```
  brew install node@22
+ ```
 
  -Verify Installation
+ ```
  node-v
+```
 
  # Step Four
  

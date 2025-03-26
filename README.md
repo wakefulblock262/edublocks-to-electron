@@ -69,10 +69,14 @@ Instal Node.js on your desktop
 (Make sure you have JavaScript and HTML extensions installed on VsCode)
 -Open the folder you want to install the app onto in VsCode
 -Initilize the project as a Node.js project by running this command in the VsCode terminal
+```
 npm init -y
+```
 -You should see a package.json file pop up in your file explorer
 -Install Electron through the VsCode terminal by running this command
+```
 npm install electron --save-dev
+```
 
 # Step Five
 

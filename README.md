@@ -62,10 +62,10 @@ npm install electron --save-dev
 -Create a main.js file and an index.html file in your folder
 -Paste this into your main.js file
 
+'''javascript
 const { app, BrowserWindow } = require('electron');
 const path = require('path');
 
-'''javascript
 function createWindow() {
   const win = new BrowserWindow({
     width: 800,

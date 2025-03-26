@@ -1,4 +1,4 @@
-# edublocks-to-electron
+# html-edublocks-to-electron
 Transfer your EduBlocks code into an Electron app.
 
 # Step One

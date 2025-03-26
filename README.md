@@ -16,44 +16,44 @@ Transfer your EduBlocks code into an Electron app.
 Instal Node.js on your desktop
 
  # Windows
- -Install Chocolotey
+ - Install Chocolotey
  ```
  powershell -c "irm https://community.chocolatey.org/install.ps1|iex"
 ```
 
- -Install Node.js through Chocolotey
+ - Install Node.js through Chocolotey
  ```
  choco install nodejs-lts --version="22"
 ```
 
- -Verify Installation
+ - Verify Installation
  ```
  node -v
 ```
 
  # MacOS
- -Install Homebrew
+ - Install Homebrew
  ```
  curl -o- https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh | bash
 ```
 
- -Install Node.js through Homebrew
+ - Install Node.js through Homebrew
  ```
  brew install node@22
 ```
 
- -Verify Installation
+ - Verify Installation
  ```
  node-v
 ```
 
  # Linux
-  -Install Homebrew
+  - Install Homebrew
   ```
  curl -o- https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh | bash
 ```
 
- -Install Node.js through Homebrew
+ - Install Node.js through Homebrew
  ```
  brew install node@22
  ```
@@ -67,13 +67,13 @@ Instal Node.js on your desktop
  
 ### Make a new Electron/Node.js Project in your IDE, preferably VsCode
 (Make sure you have JavaScript and HTML extensions installed on VsCode)
--Open the folder you want to install the app onto in VsCode
--Initilize the project as a Node.js project by running this command in the VsCode terminal
+- Open the folder you want to install the app onto in VsCode
+- Initilize the project as a Node.js project by running this command in the VsCode terminal
 ```
 npm init -y
 ```
--You should see a package.json file pop up in your file explorer
--Install Electron through the VsCode terminal by running this command
+- You should see a package.json file pop up in your file explorer
+- Install Electron through the VsCode terminal by running this command
 ```
 npm install electron --save-dev
 ```
@@ -81,8 +81,8 @@ npm install electron --save-dev
 # Step Five
 
 ### Create the needed files for transfer
--Create a main.js file and an index.html file in your folder
--Paste your EduBlocks code into your index.html file (Here is mines for example)
+- Create a main.js file and an index.html file in your folder
+- Paste your EduBlocks code into your index.html file (Here is mines for example)
 
 ```html
 <style>
@@ -165,7 +165,7 @@ npm install electron --save-dev
 </html>
 ```
 
--Paste this into your main.js file
+- Paste this into your main.js file
 
 ```javascript
 const { app, BrowserWindow } = require('electron');
@@ -187,7 +187,7 @@ app.whenReady().then(createWindow);
 ```
 ### Final Step
 
--When you are all done, you can run the command below in VsCode to run your Electron app to make your EduBlocks website into a desktop app.
+- When you are all done, you can run the command below in VsCode to run your Electron app to make your EduBlocks website into a desktop app.
 ```
 npm start
 ```

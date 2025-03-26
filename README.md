@@ -65,6 +65,7 @@ npm install electron --save-dev
 const { app, BrowserWindow } = require('electron');
 const path = require('path');
 
+'''javascript
 function createWindow() {
   const win = new BrowserWindow({
     width: 800,
@@ -78,6 +79,7 @@ function createWindow() {
 }
 
 app.whenReady().then(createWindow);
+'''
 
 -
 
